@@ -1,3 +1,49 @@
-h1 {
-  color: red;
+fieldset {
+  border: none;
+  background-color: none;
+  margin: 5rem 0;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+.form {
+  width: 40vw;
+  height: 100vh;
+}
+
+.visual {
+  width: 40vw;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visualImg {
+  width: 100%;
+}
+
+.disclaimer {
+  font-size: 2rem;
+  margin-bottom: 10rem;
+}
+
+.form h2 {
+  font-size: 1.9rem;
+}
+
+label {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  position: relative;
+  top: 0.1rem;
+}
+
+input {
+  height: 2rem;
+  width: 15rem;
 }
