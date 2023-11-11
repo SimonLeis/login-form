@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(./Rubik-VariableFont_wght.ttf);
+}
+
+:root {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1500px;
+  height: 70vh;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visual {
+  width: 40%;
+  height: 100%;
+
+  background: url(./img.jpg);
+}
+
+.form {
+  width: 60%;
+  height: 100%;
+}
+
+.logo_background {
+  height: 15%;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: 20%;
+}
+
+.logo {
+  height: 80%;
+}
+
+form {
+  margin-top: 5rem;
+  padding-top: 5%;
+  box-shadow: 0 0 5px 0 black;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  padding-bottom: 3rem;
+}
+fieldset {
+  border: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+fieldset > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+
+fieldset :nth-child(2) {
+  margin-right: 3.5rem;
+}
+
+.disclaimer :nth-child(1) {
+  font-size: 2rem;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 5%;
+}
+
+.disclaimer :nth-child(2) {
+  font-size: 1.3rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+input {
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 16rem;
+  color: rgba(0, 0, 0, 0.8);
+
+  padding-left: 1rem;
+  font-size: 1.3rem;
+}
+
+label {
+  position: relative;
+  left: 0.5rem;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+button {
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  width: 13rem;
+  margin: 2rem 10%;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.CTA > p {
+  margin-left: 10%;
+  margin-top: -1.3rem;
+}
